@@ -1,0 +1,9 @@
+{
+  "short_name": "SkyFare",
+  "name": "SkyFare — Flight Search & Booking",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2479ea",
+  "background_color": "#eff8ff"
+}
