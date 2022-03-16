@@ -1,0 +1,19 @@
+{
+  "name": "skyfare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkyFare — a colorful MERN flight booking app (Amadeus Self-Service API). Engineering lesson: complex multi-field form state + proxied/cached external API.",
+  "engines": {
+    "node": ">=16 <17"
+  },
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently -n \"server,client\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
