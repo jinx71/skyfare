@@ -4,7 +4,7 @@
   "private": true,
   "description": "SkyFare — a colorful MERN flight booking app (Amadeus Self-Service API). Engineering lesson: complex multi-field form state + proxied/cached external API.",
   "engines": {
-    "node": ">=16 <17"
+    "node": ">22"
   },
   "scripts": {
     "client": "npm start --prefix client",

@@ -5,7 +5,7 @@
   "description": "SkyFare Express + Mongoose backend. Proxies and caches the Amadeus Self-Service API; stores bookings in MongoDB.",
   "main": "src/server.js",
   "engines": {
-    "node": ">=16 <17"
+    "node": ">22"
   },
   "scripts": {
     "start": "node src/server.js",
